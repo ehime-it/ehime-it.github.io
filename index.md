@@ -19,6 +19,11 @@ layout: default
 
 - [Ehime.rb](./ehime-rb)
 
+## Links
+
+- [このページのGitHubレポジトリ](https://github.com/ehime-it/ehime-it.github.io)
+  - ページの追加、記述の修正等を行いたい場合はこのレポジトリにpull requestを送ってください。
+
 ## 連絡先
 
 - [@ramusara](https://twitter.com/ramusara) (Slackグループ関連)

@@ -15,6 +15,15 @@ layout: default
 プログラマ、デザイナ、学生、経営者、etc ...  
 興味のある方なら誰でも参加 OK です！
 
+## その他のコンテンツ
+
+- [Ehime.rb](./ehime-rb)
+
+## Links
+
+- [このページのGitHubレポジトリ](https://github.com/ehime-it/ehime-it.github.io)
+  - ページの追加、記述の修正等を行いたい場合はこのレポジトリにpull requestを送ってください。
+
 ## 連絡先
 
 - [@ramusara](https://twitter.com/ramusara) (Slackグループ関連)

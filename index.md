@@ -5,6 +5,8 @@
 layout: default
 ---
 
+# 愛媛県のITコミュニティ
+
 ## Slackグループ
 
 (2022/09/21) 91 users are registered so far.

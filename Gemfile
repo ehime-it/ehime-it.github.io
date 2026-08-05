@@ -17,6 +17,7 @@ gem "jekyll-theme-architect"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sitemap", "~> 1.4"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -34,4 +35,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'webrick'
+
+# Ruby 3.2 以降に同梱される logger 1.6系 は jekyll 4.2.2 の LogAdapter と非互換で、
+# `bundle exec jekyll build` が起動直後に NoMethodError で落ちる。ローカルでビルドを
+# 確認できるようバージョンを固定する（本番の GitHub Pages は legacy build のため影響しない）
+gem "logger", "~> 1.5.0"
 

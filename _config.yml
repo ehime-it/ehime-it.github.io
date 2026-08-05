@@ -20,10 +20,19 @@
 
 title: ehime IT
 email: your-email@example.com
+# jekyll-seo-tag はトップページの <title> を「site.title | tagline(未設定ならdescription)」で
+# 組み立てる。tagline が無いと description 全文がtitleに流用され約70文字になるため短い語を置く。
+# architectテーマのヘッダに表示されるのは description の方で、tagline は画面に出ない
+tagline: 愛媛のITコミュニティ
 description: >- # this means to ignore newlines until "baseurl:"
-  Community for IT engineers in Ehime Pref.
+  愛媛県のITエンジニア・デザイナー・学生・経営者が集まるコミュニティ。Slackグループと地域の勉強会の情報を紹介しています。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# サイトの絶対URL。ここが空だと absolute_url が機能せず、og:url / canonical / feed.xml の
+# URLがすべて相対値になる（GitHub Pages のユーザーページなので baseurl は空のままでよい）
+url: "https://ehime-it.github.io"
+# テーマのlayoutが <html lang="{{ site.lang | default: "en-US" }}"> を出力するため、
+# 指定しないと日本語サイトが en-US を宣言してしまう
+lang: ja
 twitter_username: ramusara
 github_username:  ehime-it
 
@@ -31,6 +40,7 @@ github_username:  ehime-it
 theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

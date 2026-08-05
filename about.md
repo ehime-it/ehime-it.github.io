@@ -1,18 +1,28 @@
 ---
 layout: default
-title: About
+title: ehime ITについて
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# ehime IT について
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+ehime IT は、愛媛県のIT関連の人が集まる Slack グループです。プログラマ、デザイナ、学生、経営者など、興味のある方ならどなたでも参加できます。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+このサイトは2022年9月に公開しました。Slackグループには2022年9月21日時点で91人が登録しています。
 
+## 参加方法
 
-[jekyll-organization]: https://github.com/jekyll
+[トップページ](/)に掲載しているSlackの招待リンクから参加できます。
+
+## サイトで扱っているコンテンツ
+
+- [Ehime.rb](/ehime-rb) - 愛媛の地域Rubyコミュニティです。ruby-jpのDiscordサーバー内での活動内容や、参加方法を紹介しています。
+
+## このサイトについて
+
+このサイトのソースは [GitHubリポジトリ](https://github.com/ehime-it/ehime-it.github.io) で公開しています。ページの追加や記述の修正を行いたい場合は、このリポジトリにPull Requestを送ってください。
+
+## 連絡先
+
+- [@ramusara](https://twitter.com/ramusara)（Slackグループ関連）
+- [@s01](https://twitter.com/s01)（Webサイト関連）

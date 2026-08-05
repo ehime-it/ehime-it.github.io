@@ -1,6 +1,9 @@
 ---
 layout: default
 title: ehime ITについて
+# jekyll-seo-tag は page.description があればそれを meta description に使う。
+# 指定しないと site.description が全ページ同じ文言で出るため、ページごとに置く
+description: 愛媛県のITエンジニア・デザイナー・学生・経営者が集まる Slack グループ「ehime IT」の概要と、参加方法を紹介しています。
 permalink: /about/
 ---
 

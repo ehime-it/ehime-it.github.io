@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Ehime.rb - 愛媛の地域Rubyコミュニティ
+# 指定しないと site.description が全ページ同じ文言で出るため、ページごとに置く
+description: 愛媛の地域Rubyコミュニティ Ehime.rb の紹介。ruby-jp の Discord サーバー内での活動内容と、参加方法を案内しています。
 ---
 
 # Ehime.rb - 愛媛の地域Rubyコミュニティ

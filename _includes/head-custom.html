@@ -1,0 +1,22 @@
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+{% comment %}
+  Google Search Console の所有権確認用タグ。content の値はSearch Consoleが発行したもので、
+  1文字でも変わると所有権確認が通らない。確認完了後も外すと所有権が失われるため削除しないこと。
+  （Liquidのコメントにしているのは、この運用上の注意書きを公開HTMLに出さないため）
+{% endcomment %}
+<meta name="google-site-verification" content="980ZvZN56KUelVfazt4otR_7MD9d1avgDV9DRyVi4l0" />
+
+{% comment %}
+  以下は pages-themes/architect v0.2.0 の _includes/head-custom.html にあった内容。
+  このファイルを置くとテーマ側の同名ファイルは読まれなくなるため、出力を変えないよう引き継ぐ。
+  google_analytics は _config.yml に未設定で、その場合 include 側は何も出力しない。
+{% endcomment %}
+
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
+
+<!-- end custom head snippets -->

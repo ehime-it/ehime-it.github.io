@@ -19,6 +19,7 @@ layout: default
 
 ## その他のコンテンツ
 
+- [ehime ITについて](./about/)
 - [Ehime.rb](./ehime-rb)
 
 ## Links

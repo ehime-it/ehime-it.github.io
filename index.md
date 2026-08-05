@@ -9,13 +9,13 @@ layout: default
 
 ## Slackグループ
 
-(2022/09/21) 91 users are registered so far.
-
-[Sign up](https://join.slack.com/t/ehimeit/shared_invite/zt-1gdl5pldi-w9OjlrBBQf~~8QerJIAyFg)
-
 愛媛県の IT 関連の人が集まる Slack グループです。  
 プログラマ、デザイナ、学生、経営者、etc ...  
 興味のある方なら誰でも参加 OK です！
+
+[Slackグループに参加する](https://join.slack.com/t/ehimeit/shared_invite/zt-1gdl5pldi-w9OjlrBBQf~~8QerJIAyFg)
+
+2022年9月21日時点で91人が登録しています。
 
 ## その他のコンテンツ
 

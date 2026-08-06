@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# designerロールの検証作業用(スクリーンショット・作業用一時ファイル)。CEOレビュー用の
+# screenshots/はKanbanダッシュボードの「スクリーンショットを確認」ボタンがファイルシステムから
+# 直接読むため、gitにコミットする必要が無い。
+screenshots/
+.agent-tmp/
